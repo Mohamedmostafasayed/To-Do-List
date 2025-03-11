@@ -18,9 +18,8 @@
             "browser": "src/main.ts",
               "baseHref": "/to-do-list/",
               "deployUrl": "/to-do-list/",
-              "assets": ["src/favicon.ico", "src/assets"],
-              "styles": ["src/styles.css"],
-              "scripts": [],
+              "baseHref": "./",
+              "deployUrl": "./",
                       "polyfills": [
               "zone.js"
             ],
@@ -79,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ToDoList:build"
+            "buildTarget": "todolist:build"
           }
         },
         "test": {
