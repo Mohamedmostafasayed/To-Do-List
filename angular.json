@@ -16,7 +16,6 @@
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "browser": "src/main.ts",
               "baseHref": "/to-do-list/",
               "deployUrl": "/to-do-list/",
               "assets": ["src/favicon.ico", "src/assets"],
