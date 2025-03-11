@@ -12,13 +12,14 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
-          "options": {
-            "outputPath": "docs",
-            "index": "src/index.html",
-            "browser": "src/main.ts",
-            
-              "baseHref": "./",
-              "deployUrl": "./",
+         "options": {
+          "outputPath": "docs",
+          "index": "src/index.html",
+          "browser": "src/main.ts",
+          "baseHref": "/to-do-list/",
+          "deployUrl": "/to-do-list/",              
+             
+             
                       "polyfills": [
               "zone.js"
             ],
